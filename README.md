@@ -21,7 +21,7 @@ The next step is set up a "has_many :through" relationship between
 these three models so that we can keep track of who's driving who around.
 It will work like this:
 
-Taxi -< Rides >- Passengers
+`Taxi -< Rides >- Passengers`
 
 This way, a taxi can have many passengers and a passenger can have many taxis!
 
