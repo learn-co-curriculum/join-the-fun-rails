@@ -1,13 +1,23 @@
 require 'spec_helper'
 
 describe Passenger do
+  let(:passenger) { subject }
+
   it 'has many taxis through rides' do
-    subject.taxis << Taxi.create
-    expect(Taxi.last.passenger).to include(subject)
+    taxi = Taxi.create
+
+    passenger.taxis << taxi
+    passenger.save
+
+    expect(taxi.passengers).to include(passenger)
   end
 
   it 'has many rides' do
-    subject.rides << Ride.create
-    expect(Ride.first.passenger).to eq subject
+    ride = Ride.create
+
+    passenger.rides << ride
+    passenger.save
+
+    expect(ride.passenger).to eq(passenger)
   end
 end
