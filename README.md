@@ -25,6 +25,9 @@ It will work like this:
 
 This way, a taxi can have many passengers and a passenger can have many taxis!
 
+Each table only has a primary key so you'll need to write a migration to
+get the database ready to handle the "has_many :through" relationship.
+
 Check out the join table section in the [Active Record Association Rails Guide](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association).
 
 Run the tests using the `rspec` command.
