@@ -1,18 +1,14 @@
 ---
-  tags: rails, join tables, micro
+  tags: rails, join tables, todo
   languages: ruby
   resources: 1
 ---
 
 # Join the Fun
 
-## Deliverables
-
-Fork this repository and submit your solution in master.
-
 ## Instructions
 
-Flatiron School has started it's own taxi service, FlatironX, and we need to
+Flatiron School has started its own taxi service, FlatironX, and we need to
 start developing the application's domain model!
 
 Three basic models have already been created, Passenger, Ride, and Taxi. Just run
