@@ -1,7 +1,7 @@
 ---
   tags: rails, join tables, todo
   languages: ruby
-  resources: 1
+  resources: 1k
 ---
 
 # Join the Fun
