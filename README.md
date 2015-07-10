@@ -4,7 +4,7 @@
   resources: 1
 ---
 
-# Join the Fun
+# Join the Funasdf
 
 ## Instructions
 
