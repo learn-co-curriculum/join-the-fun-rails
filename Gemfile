@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '~> 4.2'
 
 gem 'rake', '< 11.0'
 
@@ -36,7 +36,7 @@ group :doc do
 end
 
 group :test do
-  gem 'rspec-rails', '~> 3.3.0'
+  gem 'rspec-rails', '~> 3.7'
 end
 
 # Use ActiveModel has_secure_password
