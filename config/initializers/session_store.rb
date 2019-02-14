@@ -1,3 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-JoinTheFunRails::Application.config.session_store :cookie_store, key: '_join-the-fun-rails_session'
+Rails.application.config.session_store :cookie_store, key: '_join_the_fun_rails_session'
