@@ -1,4 +1,3 @@
-# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -13,24 +12,21 @@
 
 ActiveRecord::Schema.define(version: 20140212211635) do
 
-  create_table "passengers", force: true do |t|
-    t.string   "first_name"
-    t.string   "last_name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "passengers", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  create_table "rides", force: true do |t|
-    t.integer  "fare"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "rides", force: :cascade do |t|
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
     t.integer  "passenger_id"
     t.integer  "taxi_id"
   end
 
-  create_table "taxis", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "taxis", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
