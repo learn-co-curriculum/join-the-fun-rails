@@ -22,7 +22,7 @@ get the database ready to handle the "has_many :through" relationship.
 
 Check out the join table section in the [Active Record Association Rails Guide](http://guides.rubyonrails.org/association_basics.html#the-has-many-through-association).
 
-Run the tests using the `rspec` or `learn` command.
+Run the tests using the `rspec` or `learn test` command.
 
 ## Resources
 * [Rails Guides](http://guides.rubyonrails.org/)
